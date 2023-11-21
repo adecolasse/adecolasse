@@ -111,26 +111,27 @@ author:
   email            : "arnaud.decolasse@gmail.com"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fa-solid fa-fw fa-square-envelope"
       url: "arnaud.decolasse@gmail.com"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fa-brands fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arnaud-decolasse/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-fw fa-github"
+      icon: "fa-brands fa-fw fa-github"
       url: "https://github.com/adecolasse"
 
 # Site Footer
 footer:
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fa-solid fa-fw fa-square-envelope"
       url: "mailto:arnaud.decolasse@gmail.com"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fa-brands fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arnaud-decolasse/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-fw fa-github"
       url: "https://github.com/adecolasse"
 
 # Reading Files

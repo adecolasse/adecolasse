@@ -4,7 +4,7 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
-  cta_label: "<i class='fab fa-linkedin'></i> Check my Linked-In"
+  cta_label: "<i class='fa-brands fa-fw fa-linkedin'></i> Check my Linked-In"
   cta_url: "https://www.linkedin.com/in/arnaud-decolasse/"
   caption:
 excerpt: 'A passionate freelance software engineer and manager with nearly 15 years of experience.<br /><br />'
