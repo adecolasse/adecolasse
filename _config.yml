@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "fr-FR"
 title                    : &name "Arnaud Décolasse"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Arnaud Décolasse"
-description              : "My personal profile"
+subtitle                 : &desc "My personal profile"
+name                     : *name
+description              : *desc
 url                      : "https://adecolasse.github.io"
 baseurl                  : "/adecolasse"
 repository               : "adecolasse/adecolasse"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo-88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -104,22 +104,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Arnaud Décolasse"
+  name             : *name
   avatar           : "/assets/images/pp.jpg"
-  bio              : "Software Engineer and Manager with 15 years of xp."
+  bio              : "Software Engineer and Manager with 15 years of experience"
   location         : "Paris, France"
   email            : "arnaud.decolasse@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fa-solid fa-fw fa-square-envelope"
-      url: "arnaud.decolasse@gmail.com"
-    - label: "LinkedIn"
-      icon: "fa-brands fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/arnaud-decolasse/"
-    - label: "GitHub"
-      icon: "fa-brands fa-fw fa-github"
-      icon: "fa-brands fa-fw fa-github"
-      url: "https://github.com/adecolasse"
+  github           : "adecolasse"
+  linkedin         : "arnaud-decolasse"
 
 # Site Footer
 footer:
@@ -202,19 +193,23 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "CET"
 
 
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
   - jekyll-include-cache
 
 
@@ -260,11 +255,11 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
