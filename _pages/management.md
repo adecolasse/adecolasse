@@ -1,7 +1,7 @@
 ---
 title:  "Management"
 permalink: /management/
-modified: 2023-12-01T00:00:00+02:00
+modified: 2024-02-01T00:00:00+02:00
 ---
 
 This page is currently work in progress, but you can download my French resume.

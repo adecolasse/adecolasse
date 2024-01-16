@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "fr-FR"
 title                    : &name "Arnaud Décolasse"
 title_separator          : "-"
-subtitle                 : &desc "My personal profile"
+subtitle                 : &desc "CV en ligne"
 name                     : *name
 description              : *desc
 url                      : "https://adecolasse.github.io"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/pp.jpg"
-  bio              : "Software Engineer and Manager with 15 years of experience"
+  bio              : "Ingénieur en développement informatique avec 15 ans d'expérience."
   location         : "Paris, France"
   email            : "arnaud.decolasse@gmail.com"
   github           : "adecolasse"

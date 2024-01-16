@@ -4,37 +4,37 @@ permalink: /
 read_time: false
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/slava-auchynnikau-g5BI32wboyY-unsplash.jpg
   actions:
-  - label: "<i class='fa-solid fa-fw fa-square-envelope'></i> My Email"
+  - label: "<i class='fa-solid fa-fw fa-square-envelope'></i> Email"
     url: "mailto:arnaud.decolasse@gmail.com"
-  - label: "<i class='fa-brands fa-fw fa-linkedin'></i> My LinkedIn"
+  - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
     url: "https://www.linkedin.com/in/arnaud-decolasse/"
-excerpt: 'A passionate freelance software engineer and manager with nearly 15 years of experience.<br />'
+excerpt: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en tant que développeur et manager.<br />"
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "full-stak developer"
-    title: "Full Stack Developer"
-    excerpt: "All my experience is in full stack web development, with a lean toward APIs and back-end technologies, including in the Cloud."
+  - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
+    alt: "développeur full-stack"
+    title: "Développeur Full Stack"
+    excerpt: "Je possède diverses expériences de développement web full stack, avec une spécialisation sur la partie back-end et les technologies APIs, y compris sur le Cloud."
     url: "/development/"
-    btn_class: "btn--info"
-    btn_label: "Learn More"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "engineering manager"
-    title: "Engineering Manager"
-    excerpt: "My last role at Expedia Group was Senior Engineering Manager, using agile methods to organize a team of 9 engineers."
+    btn_class: "btn--primary"
+    btn_label: "Plus d'Infos"
+  - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
+    alt: "manager agile senior"
+    title: "Manager Agile Senior"
+    excerpt: "J'ai occupé jusqu'en 2023 le poste de Senior Engineering Manager, utilisant les méthodes Agile pour organiser des équipe de développement poylvalentes."
     url: "/management/"
-    btn_class: "btn--info"    
-    btn_label: "Learn More"
-  - image_path: /assets/images/mm-free-feature.png
+    btn_class: "btn--primary"    
+    btn_label: "Plus d'Infos"
+  - image_path: /assets/images/scott-graham-5fNmWej4tAA-unsplash.jpg
     alt: "consulting"
     title: "Consulting"
-    excerpt: "I experiences various technological and organizational changesin my career, and one of my strengh is to understand a particular context and provide guidance to improve."
+    excerpt: "J'ai vécu plusieurs changements organisationels et technologiques durant ma carrière, tout en prenant part aux choix structurants impactant les équipes."
     url: "/consulting/"
-    btn_class: "btn--info"    
-    btn_label: "Learn More"
+    btn_class: "btn--primary"    
+    btn_label: "Plus d'Infos"
 intro:
-  - excerpt: 'Check my skills'
+  - excerpt: 'Mes différentes compétences pour répondre à vos besoins :'
 ---
 
 {% include feature_row id="intro" type="center" %}
