@@ -3,14 +3,16 @@ layout: splash
 permalink: /
 read_time: false
 header:
-  overlay_color: "#5e616c"
   overlay_image: /assets/images/slava-auchynnikau-g5BI32wboyY-unsplash.jpg
+  overlay_color: "#5e616c"
+  # overlay_filter: rgba(255, 0, 0, 0.5)
+  # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
   actions:
   - label: "<i class='fa-solid fa-fw fa-square-envelope'></i> Email"
     url: "mailto:arnaud.decolasse@gmail.com"
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
     url: "https://www.linkedin.com/in/arnaud-decolasse/"
-excerpt: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en tant que développeur et manager.<br />"
+excerpt: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux USA.<br />"
 feature_row:
   - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
     alt: "développeur full-stack"
