@@ -1,7 +1,6 @@
 ---
 title:  "Développeur Full Stack"
 permalink: /development/
-excerpt: "CV Développeur Full Stack Arnaud Décolasse."
 toc: true
 modified: 2024-02-01T00:00:00+02:00
 ---
