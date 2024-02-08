@@ -35,8 +35,8 @@ feature_row:
     url: "/consulting/"
     btn_class: "btn--primary"    
     btn_label: "Plus d'Infos"
-intro:
-  - excerpt: 'Mes différentes compétences pour répondre à vos besoins :'
+# intro:
+#   - excerpt: 'Mes différentes compétences pour répondre à vos besoins :'
 ---
 
 {% include feature_row id="intro" type="center" %}
