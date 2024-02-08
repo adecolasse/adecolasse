@@ -22,7 +22,7 @@ feature_row:
   - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     alt: "manager agile senior"
     title: "Manager Agile Senior"
-    excerpt: "J'ai occupé jusqu'en 2023 le poste de Senior Engineering Manager, utilisant les méthodes Agile pour organiser des équipe de développement poylvalentes."
+    excerpt: "J'ai occupé jusqu'en 2023 le poste de Senior Engineering Manager, utilisant les méthodes Agile pour organiser des équipes de développement poylvalentes."
     url: "/management/"
     btn_class: "btn--primary"    
     btn_label: "Plus d'Infos"

@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : &desc "CV en ligne"
 name                     : *name
 description              : *desc
-url                      : "https://adecolasse.github.io"
+url                      : "https://www.adecolasse.com"
 baseurl                  : "/adecolasse"
 repository               : "adecolasse/adecolasse"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
