@@ -12,7 +12,7 @@ header:
     url: "mailto:arnaud.decolasse@gmail.com"
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
     url: "https://www.linkedin.com/in/arnaud-decolasse/"
-excerpt: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux USA.<br />"
+# excerpt: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux USA.<br />"
 feature_row:
   - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
     alt: "développeur full-stack"
