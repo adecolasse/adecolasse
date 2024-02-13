@@ -12,7 +12,7 @@ header:
     url: "mailto:arnaud.decolasse@gmail.com"
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
     url: "https://www.linkedin.com/in/arnaud-decolasse/"
-excerpt: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux USA.<br />"
+summary: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux USA.<br />"
 feature_row:
   - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
     alt: "développeur full-stack"
@@ -24,7 +24,7 @@ feature_row:
   - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     alt: "manager agile senior"
     title: "Manager Agile Senior"
-    excerpt: "J'ai occupé jusqu'en 2023 le poste de Senior Engineering Manager, utilisant les méthodes Agile pour organiser des équipes de développement poylvalentes."
+    summary: "J'ai occupé jusqu'en 2023 le poste de Senior Engineering Manager, utilisant les méthodes Agile pour organiser des équipes de développement poylvalentes."
     url: "/management/"
     btn_class: "btn--primary"    
     btn_label: "Plus d'Infos"
