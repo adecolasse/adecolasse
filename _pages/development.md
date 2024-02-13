@@ -5,6 +5,7 @@ toc: true
 modified: 2024-02-01T00:00:00+02:00
 ---
 
+## Qui suis-je ?
 Diplômé d’un Master d'ingénierie en informatique en 2008, j’ai 15 ans d’expérience en développement logiciel dans différents domaines d’activités.
 
 J’ai surtout développé en Java sur la partie back-end, mais j’ai aussi des expériences sur la partie front-end avec les frameworks JS. En plus de ces compétences full-stack, j’ai utilisé de façon poussée les concepts Agile et DevOps au sein des mes différentes expériences.
