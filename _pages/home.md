@@ -17,7 +17,7 @@ feature_row:
   - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
     alt: "développeur full-stack"
     title: "Développeur Full Stack"
-    excerpt: "Je possède diverses expériences de développement web full stack, avec une spécialisation sur la partie back-end et les technologies APIs, y compris sur le Cloud."
+    summary: "Je possède diverses expériences de développement web full stack, avec une spécialisation sur la partie back-end et les technologies APIs, y compris sur le Cloud."
     url: "/development/"
     btn_class: "btn--primary"
     btn_label: "Plus d'Infos"
@@ -31,12 +31,12 @@ feature_row:
   - image_path: /assets/images/scott-graham-5fNmWej4tAA-unsplash.jpg
     alt: "consulting"
     title: "Consulting"
-    excerpt: "J'ai vécu plusieurs changements organisationels et technologiques durant ma carrière, tout en prenant part aux choix structurants impactant les équipes."
+    summary: "J'ai vécu plusieurs changements organisationels et technologiques durant ma carrière, tout en prenant part aux choix structurants impactant les équipes."
     url: "/consulting/"
     btn_class: "btn--primary"    
     btn_label: "Plus d'Infos"
-# intro:
-#   - excerpt: 'Mes différentes compétences pour répondre à vos besoins :'
+intro:
+ - summary: 'Mes différentes compétences pour répondre à vos besoins :'
 ---
 
 {% include feature_row id="intro" type="center" %}
