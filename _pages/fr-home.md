@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /fr
-read_time: false
+locale: "fr-FR"
 header:
   overlay_image: /assets/images/slava-auchynnikau-g5BI32wboyY-unsplash.jpg
   overlay_color: "#5e616c"
@@ -11,7 +11,7 @@ header:
   - label: "<i class='fa-solid fa-fw fa-square-envelope'></i> Email"
     url: "mailto:arnaud.decolasse@gmail.com"
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
-    url: "https://www.linkedin.com/in/arnaud-decolasse/"
+    url: "https://www.linkedin.com/in/arnaud-decolasse/?locale=fr_FR"
 summary: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux États-Unis.<br />"
 feature_row:
   - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
