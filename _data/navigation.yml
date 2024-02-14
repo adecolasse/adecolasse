@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Développement"
-    url: /development/
   - title: "Management"
     url: /management/
+  - title: "Développement"
+    url: /development/
   - title: "Consulting"
     url: /consulting/
