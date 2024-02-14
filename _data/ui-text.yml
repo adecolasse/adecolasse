@@ -53,6 +53,7 @@ en: &DEFAULT_EN
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
+  subtitle                   : "Online Resume"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -115,6 +116,10 @@ fr: &DEFAULT_FR
   search_algolia_no_results  :
   results_found              : "Résultat(s) trouvé(s)"
   back_to_top                : "Retour en haut"
+  subtitle                   : "CV en ligne"
+  management                 : "Management"
+  development                : "Développement"
+  consulting                 : "Consulting"
 fr-FR:
   <<: *DEFAULT_FR
 fr-BE:

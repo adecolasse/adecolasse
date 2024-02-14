@@ -15,12 +15,10 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "fr-FR"
 title                    : &name "Arnaud Décolasse"
 title_separator          : "-"
-subtitle                 : &desc "CV en ligne"
+subtitle                 : true
 name                     : *name
-description              : *desc
 url                      : "https://www.adecolasse.com"
 baseurl                  : "/adecolasse"
 repository               : "adecolasse/adecolasse"

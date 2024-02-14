@@ -1,8 +1,32 @@
 # main links
-main:
-  - title: "Management"
-    url: /fr/management/
-  - title: "Développement"
-    url: /fr/development/
-  - title: "Consulting"
-    url: /fr/consulting/
+en: &DEFAULT_EN
+  main:
+    - title: "Management"
+      url: /en/management/
+    - title: "Development"
+      url: /en/development/
+    - title: "Consulting"
+      url: /en/consulting/ 
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+fr: &DEFAULT_FR
+  main:
+    - title: "Management"
+      url: /fr/management/
+    - title: "Développement"
+      url: /fr/development/
+    - title: "Consulting"
+      url: /fr/consulting/
+fr-FR:
+  <<: *DEFAULT_FR
+fr-BE:
+  <<: *DEFAULT_FR
+fr-CH:
+  <<: *DEFAULT_FR   
