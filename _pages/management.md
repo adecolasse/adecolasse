@@ -19,7 +19,7 @@ J’ai encadré jusqu’à une dizaine de personne, développeurs mais aussi che
 #### *Senior Engineering Manager*
 *Paris - 2022-2023*
 
-Durant mes dernières années à Traveldoo (Expedia Group), j’ai été promu au poste de Senior Engineering Manager de l’équipe en charge du produit d’administration et d'implémentation. J’ai supervisé jusqu’à 9 collaborateurs aux profils variés dans un contexte de fermeture de l’entreprise nécessitant de garder un haut niveau de motivation.
+Durant mes dernières années à [Traveldoo](https://www.linkedin.com/company/traveldoo-technologies/) (Expedia Group), j’ai été promu au poste de Senior Engineering Manager de l’équipe en charge du produit d’administration et d'implémentation. J’ai supervisé jusqu’à 9 collaborateurs aux profils variés dans un contexte de fermeture de l’entreprise nécessitant de garder un haut niveau de motivation.
 
 J’ai mis en place le cadre de travail afin de fournir un produit de qualité aux clients jusqu'au bout, tout en proposant des opportunités de progression de carrière aux membres de l'équipe.
 
