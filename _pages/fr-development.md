@@ -1,6 +1,6 @@
 ---
 title:  "Développeur Full Stack"
-permalink: /development/
+permalink: /fr/development/
 toc: true
 modified: 2024-02-01T00:00:00+02:00
 ---

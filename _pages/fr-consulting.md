@@ -1,6 +1,6 @@
 ---
 title:  "Consulting"
-permalink: /consulting/
+permalink: /fr/consulting/
 modified: 2024-02-01T00:00:00+02:00
 ---
 
