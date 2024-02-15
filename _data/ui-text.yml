@@ -54,13 +54,14 @@ en: &DEFAULT_EN
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
   subtitle                   : "Online Resume"
-en-US:
+  author_bio                 : "Passionate senior software engineer with 15 years of experience."
+en_US:
   <<: *DEFAULT_EN
-en-CA:
+en_CA:
   <<: *DEFAULT_EN
-en-GB:
+en_GB:
   <<: *DEFAULT_EN
-en-AU:
+en_AU:
   <<: *DEFAULT_EN
 
 # French
@@ -117,12 +118,10 @@ fr: &DEFAULT_FR
   results_found              : "Résultat(s) trouvé(s)"
   back_to_top                : "Retour en haut"
   subtitle                   : "CV en ligne"
-  management                 : "Management"
-  development                : "Développement"
-  consulting                 : "Consulting"
-fr-FR:
+  author_bio                 : "Ingénieur en développement informatique avec 15 ans d'expérience."
+fr_FR:
   <<: *DEFAULT_FR
-fr-BE:
+fr_BE:
   <<: *DEFAULT_FR
-fr-CH:
+fr_CH:
   <<: *DEFAULT_FR

@@ -1,7 +1,7 @@
 ---
 title:  "Agile Senior Manager"
 permalink: /en/management/
-locale: "en-US"
+locale: "en_US"
 toc: true
 modified: 2024-02-01T00:00:00+02:00
 ---

@@ -1,7 +1,7 @@
 ---
 title:  "Consulting"
 permalink: /en/consulting/
-locale: "en-US"
+locale: "en_US"
 modified: 2024-02-01T00:00:00+02:00
 ---
 

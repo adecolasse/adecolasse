@@ -29,6 +29,9 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
+        {% if site.flag == true %}
+          <a class="flag" href="{{ site.data.navigation[page.locale].flag.url }}" title="{{ site.data.navigation[page.locale].flag.description }}">{{ site.data.navigation[page.locale].flag.title }}</a>
+        {% endif %}
       </nav>
     </div>
   </div>

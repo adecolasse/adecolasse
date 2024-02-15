@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /fr
-locale: "fr-FR"
+locale: "fr_FR"
 header:
   overlay_image: /assets/images/slava-auchynnikau-g5BI32wboyY-unsplash.jpg
   overlay_color: "#5e616c"

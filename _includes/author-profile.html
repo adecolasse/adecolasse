@@ -15,9 +15,9 @@
     <h3 class="author__name p-name" itemprop="name">
       <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
     </h3>
-    {% if author.bio %}
+    {% if author.bio ==true %}
       <div class="author__bio p-note" itemprop="description">
-        {{ author.bio | markdownify }}
+        {{ site.data.ui-text[page.locale].author_bio | markdownify }}
       </div>
     {% endif %}
   </div>
@@ -82,7 +82,7 @@
 
       {% if author.linkedin %}
         <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}/?locale={{ page.locale }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>

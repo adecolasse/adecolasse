@@ -27,6 +27,7 @@ logo                     : "/assets/images/logo-88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
+flag                     : true
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -104,7 +105,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/pp.jpg"
-  bio              : "Ingénieur en développement informatique avec 15 ans d'expérience."
+  bio              : true
   location         : "Paris, France"
   email            : "arnaud.decolasse@gmail.com"
   github           : "adecolasse"
