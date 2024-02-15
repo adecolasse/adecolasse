@@ -3,7 +3,7 @@ layout: splash
 permalink: /fr
 locale: "fr_FR"
 header:
-  overlay_image: /assets/images/slava-auchynnikau-g5BI32wboyY-unsplash.jpg
+  overlay_image: /assets/images/header-background.jpg
   overlay_color: "#5e616c"
   # overlay_filter: rgba(255, 0, 0, 0.5)
   # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
