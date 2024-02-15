@@ -55,7 +55,7 @@ en: &DEFAULT_EN
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
   subtitle                   : "Online Resume"
-  author_bio                 : "Passionate senior software engineer with 15 years of experience."
+  author_bio                 : "Passionate software engineer and manager with 15 years of experience."
 en_US:
   <<: *DEFAULT_EN
 en_CA:
