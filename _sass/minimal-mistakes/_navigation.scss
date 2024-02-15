@@ -259,7 +259,11 @@
     }
   }
 
-  .hidden-links {
+  .hidden-flags {
+    right: 0 !important;
+  }
+  
+  .hidden-links, .hidden-flags {
     position: absolute;
     top: 100%;
     right: 60px;
@@ -322,6 +326,17 @@
       }
     }
   }
+}
+
+.flag__toggle {
+  margin-left: 1rem;
+  -ms-flex-item-align: center;
+  align-self: center;
+  height: $nav-toggle-height;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .no-js {

@@ -30,7 +30,18 @@
         </button>
         <ul class="hidden-links hidden"></ul>
         {% if site.flag == true %}
-          <a class="flag" href="{{ site.data.navigation[page.locale].flag.url }}" title="{{ site.data.navigation[page.locale].flag.description }}">{{ site.data.navigation[page.locale].flag.title }}</a>
+          <button class="flag__toggle" type="button">
+            <span class="visually-hidden">{{ site.data.ui-text[page.locale].language_label | default: "Toggle language" }}</span>
+            <div class="flag">{{ site.data.navigation[page.locale].current_flag }}</div>
+            <div class="flagicon"></div>
+          </button>
+          <ul class="hidden-flags hidden">
+            {%- for flag in site.data.navigation[page.locale].other_flags -%}
+            <li class="masthead__menu-item">
+              <a href="{{ flag.url | relative_url }}"{% if flag.description %} title="{{ flag.description }}"{% endif %}>{{ flag.title }}</a>
+            </li>
+          {%- endfor -%}
+          </ul>
         {% endif %}
       </nav>
     </div>

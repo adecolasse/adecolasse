@@ -14,8 +14,9 @@ $(function() {
   var $logoImg = $('nav.greedy-nav .site-logo img');
   var $title = $("nav.greedy-nav .site-title");
   var $search = $('nav.greedy-nav button.search__toggle');
-  var $flag = $('nav.greedy-nav .flag');
-  
+  var $flagbtn = $('nav.greedy-nav .flag__toggle');
+  var $flagicon = $('nav.greedy-nav .')
+  var $hflags = $("nav.greedy-nav .hidden-flags");
 
   var numOfItems, totalSpace, closingTime, breakWidths;
 
@@ -74,7 +75,7 @@ $(function() {
                    - /* title */ $title.outerWidth(true)
                    - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
                    - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn.outerWidth(true) : 0)
-                   - /* flag */ ($flag.length !== 0 ? $flag.outerWidth(true) : 0);
+                   - /* flag */ ($flagbtn.length !== 0 ? $flagbtn.outerWidth(true) : 0);
     requiredSpace = breakWidths[numOfVisibleItems - 1];
 
     // There is not enought space
@@ -127,4 +128,19 @@ $(function() {
   // if page does not have a logo just check
   } else check();
 
+  $flagbtn.on('click', function() {
+    $hflags.toggleClass('hidden');
+    $(this).toggleClass('close');
+    clearTimeout(timer);
+  });
+
+  $hflags.on('mouseleave', function() {
+    // Mouse has left, start the timer
+    timer = setTimeout(function() {
+      $hflags.addClass('hidden');
+    }, closingTime);
+  }).on('mouseenter', function() {
+    // Mouse is back, cancel the timer
+    clearTimeout(timer);
+  })
 });

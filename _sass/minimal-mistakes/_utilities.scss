@@ -360,7 +360,37 @@ body:hover .visually-hidden button {
   }
 }
 
-.close .navicon {
+.flagicon {
+  display: none;
+  position: relative;
+  width: 30px;
+  height: $navicon-height;
+  background: transparent;
+}
+
+.close .flagicon {
+  display: block;
+
+  &:before,
+  &:after {
+    background: $primary-color;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 30px !important;
+    height: $navicon-height;
+  }
+  
+  &:before {
+    top: (-2 * $navicon-height);
+  }
+
+  &:after {
+    bottom: (-2 * $navicon-height);
+  }
+}
+
+.close .navicon, .close .flagicon {
   /* hide the middle line*/
   background: transparent;
 
@@ -385,7 +415,11 @@ body:hover .visually-hidden button {
   }
 }
 
-.greedy-nav__toggle {
+.close .flag {
+  display: none;
+}
+
+.greedy-nav__toggle, .flag__toggle {
   &:before {
     @supports (pointer-events: none) {
       content: '';
@@ -412,7 +446,7 @@ body:hover .visually-hidden button {
   }
 }
 
-.greedy-nav__toggle:hover {
+.greedy-nav__toggle:hover, .flag__toggle:hover {
   .navicon,
   .navicon:before,
   .navicon:after {
@@ -420,11 +454,12 @@ body:hover .visually-hidden button {
   }
 
   &.close {
-    .navicon {
+    .navicon, .flagicon {
       background: transparent;
     }
   }
 }
+
 
 /*
    Sticky, fixed to top content
