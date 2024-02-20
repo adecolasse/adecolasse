@@ -31,7 +31,7 @@ feature_row:
   - image_path: /assets/images/scott-graham-5fNmWej4tAA-unsplash.jpg
     alt: "consulting"
     title: "Consulting"
-    summary: "J'ai vécu plusieurs changements organisationels et technologiques durant ma carrière, tout en prenant part aux choix structurants impactant les équipes."
+    summary: "J'ai vécu plusieurs changements organisationnels et technologiques durant ma carrière, tout en prenant part aux choix structurants impactant les équipes."
     url: "/fr/consulting/"
     btn_class: "btn--primary"    
     btn_label: "Plus d'Infos"

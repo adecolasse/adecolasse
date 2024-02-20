@@ -2,7 +2,7 @@
 title:  "Consulting"
 permalink: /fr/consulting/
 locale: "fr_FR"
-modified: 2024-02-01T00:00:00+02:00
+modified: 2024-03-01T00:00:00+02:00
 ---
 
 Cette offre est actuellement en construction, merci de me contacter directement pour plus de détails.
