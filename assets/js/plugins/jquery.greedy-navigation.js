@@ -10,12 +10,13 @@ $(function() {
   var $vlinks = $("nav.greedy-nav .visible-links");
   var $hlinks = $("nav.greedy-nav .hidden-links");
   var $nav = $("nav.greedy-nav");
-  var $logo = $('nav.greedy-nav .site-logo');
-  var $logoImg = $('nav.greedy-nav .site-logo img');
+  var $logo = $("nav.greedy-nav .site-logo");
+  var $logoImg = $("nav.greedy-nav .site-logo img");
   var $title = $("nav.greedy-nav .site-title");
-  var $search = $('nav.greedy-nav button.search__toggle');
-  var $flagbtn = $('nav.greedy-nav .flag__toggle');
-  var $flagicon = $('nav.greedy-nav .')
+  var $search = $("nav.greedy-nav button.search__toggle");
+  var $theme = $("nav.greedy-nav .theme_toggle")
+  var $flagbtn = $("nav.greedy-nav .flag__toggle");
+  var $flagicon = $("nav.greedy-nav .flagicon")
   var $hflags = $("nav.greedy-nav .hidden-flags");
 
   var numOfItems, totalSpace, closingTime, breakWidths;
@@ -75,6 +76,7 @@ $(function() {
                    - /* title */ $title.outerWidth(true)
                    - /* search */ ($search.length !== 0 ? $search.outerWidth(true) : 0)
                    - /* toggle */ (numOfVisibleItems !== breakWidths.length ? $btn.outerWidth(true) : 0)
+                   - /* theme */ ($theme.length !== 0 ? $theme.outerWidth(true) : 0);
                    - /* flag */ ($flagbtn.length !== 0 ? $flagbtn.outerWidth(true) : 0);
     requiredSpace = breakWidths[numOfVisibleItems - 1];
 

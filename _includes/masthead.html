@@ -29,6 +29,10 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
+        <div class="theme__toggle">
+          <input class="container_toggle" type="checkbox" id="switch" data-theme-toggle>
+          <label for="switch"></label>
+        </div>
         {% if site.flag == true %}
           <button class="flag__toggle" type="button">
             <span class="visually-hidden">{{ site.data.ui-text[page.locale].language_label | default: "Toggle language" }}</span>

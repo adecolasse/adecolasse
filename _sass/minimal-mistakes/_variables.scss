@@ -51,6 +51,19 @@ $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
 
+$gray: #7a8288 !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$dark-gray: mix(#000, $gray, 50%) !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default: $dark-gray !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
+$yiq-debug: false !default;
+
+$notice-background-mix: 80%;
+$code-notice-background-mix: 90%;
+
 /*
    Breakpoints
    ========================================================================== */

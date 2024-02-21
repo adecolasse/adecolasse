@@ -209,7 +209,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: $primary-color;
+  background: var(--primary-color);
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -221,7 +221,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: $primary-color;
+    background: var(--primary-color);
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
@@ -248,7 +248,7 @@ body:hover .visually-hidden button {
 
   &:before,
   &:after {
-    background: $primary-color;
+    background: var(--primary-color);
     content: "";
     position: absolute;
     left: 0;
@@ -304,7 +304,7 @@ body:hover .visually-hidden button {
       width: 100%;
       height: 100%;
       opacity: 0;
-      background-color: $background-color;
+      background-color: var(--background-color);
       -webkit-transition: $global-transition;
       transition: $global-transition;
       pointer-events: none;
@@ -325,7 +325,7 @@ body:hover .visually-hidden button {
   .navicon,
   .navicon:before,
   .navicon:after {
-    background: mix(#000, $primary-color, 25%);
+    background: var(--inactive-color);
   }
 
   &.close {
@@ -402,7 +402,7 @@ body:hover .visually-hidden button {
   min-height: 0;
   z-index: 9999;
   background: #fff;
-  border: 1px solid $border-color;
+  border: 1px solid var(--border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
@@ -417,7 +417,7 @@ body:hover .visually-hidden button {
 
   &__actions {
     padding: 0.5em 1em;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid var(--border-color);
   }
 }
 
@@ -455,7 +455,7 @@ a.reversefootnote {
    ========================================================================== */
 
 .required {
-  color: $danger-color;
+  color: var(--danger-color);
   font-weight: bold;
 }
 
@@ -503,5 +503,64 @@ a.reversefootnote {
 }
 
 a .fa-file-pdf {
-  color: $text-color !important; // override
+  color: var(--text-color) !important; // override
+}
+
+/*
+   Theme Switch
+   ========================================================================== */
+.theme__toggle {
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  label {
+    cursor: pointer;
+    width: 55px;
+    height: 30px;
+    background: #ed179e;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+   transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
+  }
+  
+  input:checked + label {
+    background: #FFBD07;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 420ms!important;
+  transition-delay: 0!important;
 }

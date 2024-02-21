@@ -2,109 +2,91 @@
    Dark skin
    ========================================================================== */
 
-$gray: #7a8288 !default;
-$dark-gray: mix(#000, $gray, 50%) !default;
-$darker-gray: mix(#000, $gray, 60%) !default;
-$light-gray: mix(#fff, $gray, 50%) !default;
-$lighter-gray: mix(#fff, $gray, 90%) !default;
-
-/* YIQ color contrast */
-$yiq-contrasted-dark-default: $dark-gray !default;
-$yiq-contrasted-light-default: #fff !default;
-$yiq-contrasted-threshold: 175 !default;
-$yiq-debug: false !default;
-
 /* Colors */
-$background-color: #252a34 !default;
-$code-background-color: mix(#000, $background-color, 15%) !default;
-$code-background-color-dark: mix(#000, $background-color, 20%) !default;
-$text-color: #eaeaea !default;
-$muted-text-color: mix(#fff, $text-color, 20%) !default;
-$border-color: mix(#fff, $background-color, 20%) !default;
-$form-background-color: mix(#000, $background-color, 15%) !default;
-$footer-background-color: mix(#000, $background-color, 30%) !default;
+$background-color: #252a34;
+$code-background-color: mix(#000, $background-color, 15%);
+$text-color: #eaeaea;
+$muted-text-color: mix(#fff, $text-color, 20%);
+$border-color: mix(#fff, $background-color, 20%);
+$border-color-darker: mix(#000, $border-color, 25%);
+$form-background-color: mix(#000, $background-color, 15%);
+$footer-background-color: mix(#000, $background-color, 30%);
 
-$primary-color: #ff0000a9 !default;
-$success-color: #3fa63f !default;
-$warning-color: #d67f05 !default;
-$danger-color: #ee5f5b !default;
-$info-color: #3b9cba !default;
-$focus-color: $primary-color !default;
-$active-color: mix(#fff, $primary-color, 80%) !default;
+$primary-color: #ff0000a9;
+$success-color: #3fa63f;
+$warning-color: #d67f05;
+$danger-color: #ee5f5b;
+$info-color: #3b9cba;
+$focus-color: $primary-color;
+$active-color: mix(#fff, $primary-color, 80%);
+$inactive-color: mix(#000, $primary-color, 25%);
 
 /* links */
-$link-color: mix(#fff, $text-color, 25%) !default;
-$link-color-hover: mix($primary-color, $link-color, 40%) !default;
-$link-color-visited: mix(#000, $link-color, 25%) !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
-$navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
-
-/* notices */
-$notice-background-mix: 80% !default;
-$code-notice-background-mix: 90% !default;
+$link-color: mix(#fff, $text-color, 25%);
+$link-color-hover: mix($primary-color, $link-color, 40%);
+$link-color-visited: mix(#000, $link-color, 25%);
+$masthead-link-color: $text-color;
+$masthead-link-color-hover: mix(#000, $text-color, 20%);
+$navicon-link-color-hover: mix(#000, $background-color, 30%);
 
 /* syntax highlighting (base16) */
-$base00: #263238 !default;
-$base01: #2e3c43 !default;
-$base02: #314549 !default;
-$base03: #546e7a !default;
-$base04: #b2ccd6 !default;
-$base05: #eeffff !default;
-$base06: #eeffff !default;
-$base07: #ffffff !default;
-$base08: #f07178 !default;
-$base09: #f78c6c !default;
-$base0a: #ffcb6b !default;
-$base0b: #c3e88d !default;
-$base0c: #89ddff !default;
-$base0d: #82aaff !default;
-$base0e: #c792ea !default;
-$base0f: #ff5370 !default;
+$base00: #263238;
+$base01: #2e3c43;
+$base02: #314549;
+$base03: #546e7a;
+$base04: #b2ccd6;
+$base05: #eeffff;
+$base06: #eeffff;
+$base07: #ffffff;
+$base08: #f07178;
+$base09: #f78c6c;
+$base0a: #ffcb6b;
+$base0b: #c3e88d;
+$base0c: #89ddff;
+$base0d: #82aaff;
+$base0e: #c792ea;
+$base0f: #ff5370;
 
 html[data-theme="dark"] {
-  --background-color: $background-color;
-  --code-background-color: $code-background-color;
-  --code-background-color-dark: $code-background-color-dark;
-  --text-color: $text-color;
-  --muted-text-color: $muted-text-color;
-  --border-color: $border-color;
-  --form-background-color: $form-background-color;
-  --footer-background-color: $footer-background-color;
+  --background-color: #{$background-color};
+  --code-background-color: #{$code-background-color};
+  --text-color: #{$text-color};
+  --muted-text-color: #{$muted-text-color};
+  --border-color: #{$border-color};
+  --border-color-darker: #{$border-color-darker};
+  --form-background-color: #{$form-background-color};
+  --footer-background-color: #{$footer-background-color};
 
-  --primary-color: $primary-color;
-  --success-color: $success-color;
-  --warning-color: $warning-color;
-  --danger-color: $danger-color;
-  --info-color: $info-color;
-  --focus-color: $focus-color;
-  --active-color: $$active-color;
+  --primary-color: #{$primary-color};
+  --success-color: #{$success-color};
+  --warning-color: #{$warning-color};
+  --danger-color: #{$danger-color};
+  --info-color: #{$info-color};
+  --focus-color: #{$focus-color};
+  --active-color: #{$active-color};
+  --inactive-color: #{$inactive-color};
 
-  --link-color: $link-color;
-  --link-color-hover: $link-color-hover;
-  --link-color-visited: $link-color-visited;
-  --masthead-link-color: $masthead-link-color;
-  --masthead-link-color-hover: $masthead-link-color-hover;
-  --navicon-link-color-hover: $navicon-link-color-hover;
-  
-  --notice-background-mix: $notice-background-mix;
-  --code-notice-background-mix: $code-notice-background-mix;
+  --link-color: #{$link-color};
+  --link-color-hover: #{$link-color-hover};
+  --link-color-visited: #{$link-color-visited};
+  --masthead-link-color: #{$masthead-link-color};
+  --masthead-link-color-hover: #{$masthead-link-color-hover};
+  --navicon-link-color-hover: #{$navicon-link-color-hover};
 
-  --base00: $base00;
-  --base01: $base01;
-  --base02: $base02;
-  --base03: $base03;
-  --base04: $base04;
-  --base05: $base05;
-  --base06: $base06;
-  --base07: $base07;
-  --base08: $base08;
-  --base09: $base09;
-  --base0a: $base0a;
-  --base0b: $base0b;
-  --base0c: $base0c;
-  --base0d: $base0d;
-  --base0e: $base0e;
-  --base0f: $base0f;
-
+  --base00: #{$base00};
+  --base01: #{$base01};
+  --base02: #{$base02};
+  --base03: #{$base03};
+  --base04: #{$base04};
+  --base05: #{$base05};
+  --base06: #{$base06};
+  --base07: #{$base07};
+  --base08: #{$base08};
+  --base09: #{$base09};
+  --base0a: #{$base0a};
+  --base0b: #{$base0b};
+  --base0c: #{$base0c};
+  --base0d: #{$base0d};
+  --base0e: #{$base0e};
+  --base0f: #{$base0f};
 }
