@@ -5,8 +5,7 @@ locale: "en_US"
 header:
   overlay_image: /assets/images/header-background.jpg
   overlay_color: "#5e616c"
-  # overlay_filter: rgba(255, 0, 0, 0.5)
-  # overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.2) 30%, rgba(164, 10, 10, 0.2))
   actions:
   - label: "<i class='fa-solid fa-fw fa-square-envelope'></i> Email"
     url: "mailto:arnaud.decolasse@gmail.com"
