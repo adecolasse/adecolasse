@@ -328,15 +328,18 @@
   }
 }
 
-.flag__toggle {
+.flag__toggle, .theme__toggle {
   margin-left: 1rem;
   -ms-flex-item-align: center;
   align-self: center;
-  height: $nav-toggle-height;
   border: 0;
   outline: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.flag__toggle {
+  height: $nav-toggle-height;
 }
 
 .no-js {

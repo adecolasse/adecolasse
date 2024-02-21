@@ -516,9 +516,10 @@ a .fa-file-pdf {
   
   label {
     cursor: pointer;
-    width: 55px;
-    height: 30px;
-    background: #ed179e;
+    text-indent: -9999px;
+    width: 28px;
+    height: 18px;
+    background: var(--text-color);
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -531,24 +532,20 @@ a .fa-file-pdf {
   
   label:after {
     content: '';
-    background: #fff;
-    width: 20px;
-    height: 20px;
+    background: var(--background-color);
+    width: 12px;
+    height: 12px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     position: absolute;
-    top: 5px;
-    left: 4px;
+    top: 3px;
+    left: 3px;
    transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
   }
   
-  input:checked + label {
-    background: #FFBD07;
-  }
-  
   input:checked + label:after {
-    left: calc(100% - 5px);
+    left: calc(100% - 3px);
     -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);

@@ -13,7 +13,6 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
 
 function updateButton({ buttonEl, isDark }) {
     buttonEl.checked = isDark;
-    console.log(buttonEl.checked)
 }
 
 /**
