@@ -1,12 +1,12 @@
 # main links
 en: &DEFAULT_EN
   main:
-    - title: "Management"
-      description: "More information on management"
-      url: /en/management/
     - title: "Development"
       description: "More information on development"
       url: /en/development/
+    - title: "Management"
+      description: "More information on management"
+      url: /en/management/
     - title: "Consulting"
       description: "More information on consulting"
       url: /en/consulting/
@@ -26,12 +26,12 @@ en_AU:
 
 fr: &DEFAULT_FR
   main:
-    - title: "Management"
-      description: "Plus d'infos sur le management"
-      url: /fr/management/
     - title: "Développement"
       description: "Plus d'infos sur le développement"    
       url: /fr/development/
+    - title: "Management"
+      description: "Plus d'infos sur le management"
+      url: /fr/management/
     - title: "Consulting"
       description: "Plus d'infos sur le consulting"    
       url: /fr/consulting/
