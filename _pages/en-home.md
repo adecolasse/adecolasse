@@ -12,6 +12,8 @@ header:
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
     url: "https://www.linkedin.com/in/arnaud-decolasse/?locale=en_US"
 summary: "A passionate freelance software engineer and manager.<br /><br />15 years of experience in various companies like Expedia Group and Bouygues Telecom, in France and in the US.<br />"
+intro:
+ - summary: "Check my skills:"
 feature_row:
   - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     alt: "Senior Engineering Manager"
@@ -34,8 +36,6 @@ feature_row:
     url: "/en/consulting/"
     btn_class: "btn--primary"    
     btn_label: "Learn More"
-intro:
- - summary: 'Check my skills:'
 ---
 
 {% include feature_row id="intro" type="center" %}

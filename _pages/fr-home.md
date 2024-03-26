@@ -10,7 +10,11 @@ header:
     url: "mailto:arnaud.decolasse@gmail.com"
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
     url: "https://www.linkedin.com/in/arnaud-decolasse/?locale=fr_FR"
+  - label: "<i class='fa-solid fa-fw fa-book-open'></i> Substack"
+    url: "https://adecolasse.substack.com/about/"
 summary: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux États-Unis.<br />"
+intro:
+ - summary: "Mes différentes compétences pour répondre à vos besoins :"
 feature_row:
   - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     alt: "manager agile senior"
@@ -33,8 +37,6 @@ feature_row:
     url: "/fr/consulting/"
     btn_class: "btn--primary"    
     btn_label: "Plus d'Infos"
-intro:
- - summary: 'Mes différentes compétences pour répondre à vos besoins :'
 ---
 
 {% include feature_row id="intro" type="center" %}
