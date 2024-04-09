@@ -14,7 +14,7 @@ header:
 summary: "A passionate freelance software engineer and manager.<br /><br />15 years of experience in various companies like Expedia Group and Bouygues Telecom, in France and in the US.<br />"
 intro:
  - summary: "Check my skills:"
-feature_row:
+skills:
   - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
     alt: "Full-Stack Developer"
     title: "Full-Stack Developer"
@@ -45,8 +45,8 @@ key_points:
  - summary: "<i class='fa-solid fa-people-group'></i>&emsp;Experience as agile manager and technical coach with focus on quality"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="center" nosep="true" %}
 
-{% include feature_row %}
+{% include feature_row id="skills" %}
 
-{% include feature_row id="key_points" type="list" %}
+{% include feature_row id="key_points" type="list" nosep="true" %}

@@ -15,7 +15,7 @@ header:
 summary: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux États-Unis.<br />"
 intro:
  - summary: "Mes différentes compétences pour répondre à vos besoins :"
-feature_row:
+skills:
   - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
     alt: "développeur full-stack"
     title: "Développeur Full Stack"
@@ -46,8 +46,8 @@ key_points:
  - summary: "<i class='fa-solid fa-people-group'></i>&emsp;Expérience de manager agile et de coach technique avec focus sur la qualité"
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="center" nosep="true" %}
 
-{% include feature_row %}
+{% include feature_row id="skills" %}
 
-{% include feature_row id="key_points" type="list" %}
+{% include feature_row id="key_points" type="list" nosep="true" %}

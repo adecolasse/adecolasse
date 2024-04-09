@@ -38,7 +38,7 @@
   color: var(--muted-text-color);
   border-bottom: 1px solid var(--border-color);
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -59,7 +59,7 @@
     bottom: 0;
   }
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -76,7 +76,7 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 
@@ -168,8 +168,10 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
+    margin-left: 0;
+    /* override margin*/
+    margin-right: 0;
+    /* override margin*/
     width: span(3 of 12);
 
     &:nth-child(2n + 1) {
@@ -246,6 +248,11 @@
   .archive__item-title {
     margin-bottom: 0;
   }
+}
+
+.feature__wrapper.nosep{
+  border-bottom: 0px;
+  margin-bottom: 1em;
 }
 
 .feature__item {
@@ -435,7 +442,7 @@
       width: 100%;
     }
 
-    .archive__item-title{
+    .archive__item-title {
       margin-top: 0.5em;
       margin-bottom: 0.8em;
     }
@@ -459,7 +466,7 @@
         width: span(5 of 12);
       }
 
-      .archive__item-title{
+      .archive__item-title {
         text-align: center;
         margin-top: 0em;
         margin-bottom: 0.5em;
@@ -496,7 +503,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -511,7 +518,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }
