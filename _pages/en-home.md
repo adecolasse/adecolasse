@@ -37,7 +37,7 @@ skills:
     btn_class: "btn--primary"    
     btn_label: "Learn More"
 key_points:
- - title: "My profile in 5 key points :"
+ - title: "My profile in 5 key points:"
  - summary: "<i class='fa-solid fa-list-check'></i>&emsp;Very operational thanks to my technical, product and management skills"
  - summary: "<i class='fa-solid fa-sitemap'></i>&emsp;Advanced experience of REST APIs back-ends and DDD architectures"
  - summary: "<i class='fa-solid fa-database'></i>&emsp;Advanced experience of relational and document databases"

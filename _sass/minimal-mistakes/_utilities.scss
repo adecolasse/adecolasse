@@ -321,7 +321,21 @@ body:hover .visually-hidden button {
   }
 }
 
-.greedy-nav__toggle:hover, .flag__toggle:hover {
+.greedy-nav__toggle:hover {
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: var(--primary-color);
+  }
+
+  &.close {
+    .navicon {
+      background: transparent;
+    }
+  }
+}
+
+.flag__toggle:hover {
   .navicon,
   .navicon:before,
   .navicon:after {
@@ -329,7 +343,7 @@ body:hover .visually-hidden button {
   }
 
   &.close {
-    .navicon, .flagicon {
+    .flagicon {
       background: transparent;
     }
   }
