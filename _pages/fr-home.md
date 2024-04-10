@@ -14,7 +14,7 @@ header:
     url: "https://adecolasse.substack.com/about/"
 summary: "Ingénieur en développement informatique indépendant.<br /><br />15 ans d'expérience au sein de groupes tel qu'Expedia et Bouygues Telecom, en France et aux États-Unis.<br />"
 intro:
- - summary: "Mes différentes compétences pour répondre à vos besoins :"
+ - summary: "Mes compétences pour répondre à vos besoins :"
 skills:
   - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
     alt: "développeur full-stack"
