@@ -40,10 +40,10 @@ skills:
 key_points:
  - title: "Mon profil en 5 points clés :"
  - summary: "<i class='fa-solid fa-list-check'></i>&emsp;Très opérationnel grace à mes compétences techniques, produit et manageriales"
- - summary: "<i class='fa-solid fa-sitemap'></i>&emsp;Expérience avancée en back-end API REST et architectures orientées domaines"
- - summary: "<i class='fa-solid fa-database'></i>&emsp;Expérience avancée en gestion de base de données relationnelles et documents"
+ - summary: "<i class='fa-solid fa-people-group'></i>&emsp;Expérience de manager agile et de coach technique avec focus sur la qualité "
+ - summary: "<i class='fa-solid fa-sitemap'></i>&emsp;Expérience en back-end API REST et architectures orientées domaines"
+ - summary: "<i class='fa-solid fa-database'></i>&emsp;Expérience en gestion de base de données relationnelles et documents"
  - summary: "<i class='fa-solid fa-display'></i>&emsp;Expérience en front-end JS (React, NodeJS) avec utilisation d'API GraphQL"
- - summary: "<i class='fa-solid fa-people-group'></i>&emsp;Expérience de manager agile et de coach technique avec focus sur la qualité"
 ---
 
 {% include feature_row id="intro" type="center" nosep="true" %}

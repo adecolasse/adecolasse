@@ -39,10 +39,10 @@ skills:
 key_points:
  - title: "My profile in 5 key points:"
  - summary: "<i class='fa-solid fa-list-check'></i>&emsp;Very operational thanks to my technical, product and management skills"
+ - summary: "<i class='fa-solid fa-people-group'></i>&emsp;Experience as agile manager and technical coach with focus on quality"
  - summary: "<i class='fa-solid fa-sitemap'></i>&emsp;Advanced experience of REST APIs back-ends and DDD architectures"
  - summary: "<i class='fa-solid fa-database'></i>&emsp;Advanced experience of relational and document databases"
  - summary: "<i class='fa-solid fa-display'></i>&emsp;Experience in JS front-end (React, NodeJS) leveraging GraphQL APIs"
- - summary: "<i class='fa-solid fa-people-group'></i>&emsp;Experience as agile manager and technical coach with focus on quality"
 ---
 
 {% include feature_row id="intro" type="center" nosep="true" %}
