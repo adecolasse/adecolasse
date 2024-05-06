@@ -7,6 +7,8 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.2) 30%, rgba(164, 10, 10, 0.2))
   actions:
+  - label: "<i class='fa-solid fa-file-pdf'></i> Resume"
+    url: "/en/download/"
   - label: "<i class='fa-solid fa-fw fa-square-envelope'></i> Email"
     url: "mailto:arnaud.decolasse@gmail.com"
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"

@@ -6,6 +6,8 @@ header:
   overlay_image: /assets/images/header-background.jpg
   overlay_filter: linear-gradient(to right, rgba(0, 0, 0, 0.2) 30%, rgba(164, 10, 10, 0.2))
   actions:
+  - label: "<i class='fa-solid fa-fw fa-file-pdf'></i> CVs"
+    url: "/fr/download/"  
   - label: "<i class='fa-solid fa-fw fa-square-envelope'></i> Email"
     url: "mailto:arnaud.decolasse@gmail.com"
   - label: "<i class='fa-brands fa-fw fa-linkedin'></i> LinkedIn"
