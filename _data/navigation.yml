@@ -4,12 +4,12 @@ en: &DEFAULT_EN
     - title: "Resume"
       description: "All my resumes in PDF format"
       url: /en/download/
-    - title: "Development"
-      description: "More information on development"
-      url: /en/development/
     - title: "Management"
       description: "More information on management"
       url: /en/management/
+    - title: "Development"
+      description: "More information on development"
+      url: /en/development/
     - title: "Consulting"
       description: "More information on consulting"
       url: /en/consulting/
@@ -32,12 +32,12 @@ fr: &DEFAULT_FR
     - title: "CV en PDF"
       description: "Mes CVs au format PDF"
       url: /fr/download/
-    - title: "Développement"
-      description: "Plus d'infos sur le développement"    
-      url: /fr/development/
     - title: "Management"
       description: "Plus d'infos sur le management"
       url: /fr/management/
+    - title: "Développement"
+      description: "Plus d'infos sur le développement"    
+      url: /fr/development/
     - title: "Consulting"
       description: "Plus d'infos sur le consulting"    
       url: /fr/consulting/

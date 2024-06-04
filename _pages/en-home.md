@@ -17,13 +17,6 @@ summary: "A passionate freelance software engineer and manager.<br /><br />15 ye
 intro:
  - summary: "Check my skills:"
 skills:
-  - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
-    alt: "Full-Stack Developer"
-    title: "Full-Stack Developer"
-    summary: "Most of my experiences have been focused on full-stack web development, with a lean toward APIs and back-end technologies, including in the Cloud."
-    url: "/en/development/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"    
   - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     alt: "Senior Engineering Manager"
     title: "Sr. Engineering Manager"
@@ -31,6 +24,13 @@ skills:
     url: "/en/management/"
     btn_class: "btn--primary"    
     btn_label: "Learn More"
+  - image_path: /assets/images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg
+    alt: "Full-Stack Developer"
+    title: "Full-Stack Developer"
+    summary: "Most of my experiences have been focused on full-stack web development, with a lean toward APIs and back-end technologies, including in the Cloud."
+    url: "/en/development/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"    
   - image_path: /assets/images/scott-graham-5fNmWej4tAA-unsplash.jpg
     alt: "consulting"
     title: "Consulting"
