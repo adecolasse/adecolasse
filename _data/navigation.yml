@@ -38,8 +38,8 @@ fr: &DEFAULT_FR
     - title: "Développement"
       description: "Plus d'infos sur le développement"    
       url: /fr/development/
-    - title: "Consulting"
-      description: "Plus d'infos sur le consulting"    
+    - title: "Conseil"
+      description: "Plus d'infos sur le conseil"    
       url: /fr/consulting/
   current_flag: '<svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 1000 600"><rect width="900" height="600" fill="#ED2939"/><rect width="600" height="600" fill="#fff"/><rect width="300" height="600" fill="#002395"/></svg>'
   other_flags:
