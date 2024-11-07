@@ -3,11 +3,11 @@ title:  "Développeur Full Stack"
 permalink: /fr/development/
 locale: "fr_FR"
 toc: true
-modified: 2024-03-01T00:00:00+02:00
+modified: 2024-11-01T00:00:00+02:00
 ---
 
 ## <i class="fa-solid fa-user"></i> Qui suis-je ?
-Diplômé d’un Master d'ingénierie en informatique, j’ai 15 ans d’expérience en développement logiciel dans différents domaines d’activités, en France et aux États-Unis. 
+Diplômé d’un Master d'ingénierie en informatique, j’ai 15 ans d’expérience en développement logiciel dans différents domaines d’activités, en France et aux États-Unis.
 
 J’ai surtout développé en Java sur la partie back-end, mais également sur les parties front-end utilisant les frameworks JS. En plus de ces compétences full-stack, j’ai utilisé de façon poussée les concepts Agile et DevOps au sein des mes différentes expériences.
 
@@ -15,10 +15,19 @@ Dernièrement, j’ai été promus aux rôles de Tech Lead et de Manager au sein
 
 ## <i class="fa-solid fa-building-columns"></i> Expériences Notables
 
+### BeeMyFlex
+*Paris - 2024*
+
+[BeeMyFlex](https://www.beemyflex.com/fr/) est une startup proposant des applications web et mobiles pour la gestion des bureaux (flex office, réservation, etc). J’ai rejoint l’équipe en tant que prestataire freelance pour trois mois et développé de nouvelles fonctionnalités pour l’application de calendrier.  : Next.js, React et Typescript. : C#, REST API, SQL Server. Déploiement/Runtime: Docker; Azure DevOps et Azure Cloud.
+
+Technologies front-end : `Next.js`, `React` et `Typescript`.  
+Technologies back-end : `C#`, `REST API` et `SQL Server`.  
+Déploiement/Runtime : `Docker`, `Azure DevOps` et `Azure Cloud`.
+
 ### TAAP, Expedia Group
 *Paris - 2023*
 
-Durant ma dernière année à Traveldoo (Expedia Group), j’ai contribué à deux projets [Expedia TAAP](https://www.expediataap.fr/) pour compenser la baisse d’activité. Je suis intervenu sur des `API REST` et `GraphQL` dans un environnement AWS, puis sur l’interface `NodeJS/React` des sites Expedia.
+Durant ma dernière année à Traveldoo (Expedia Group), j’ai contribué à deux projets [Expedia TAAP](https://www.expediataap.fr/). Je suis intervenu sur des `API REST` et `GraphQL` dans un environnement AWS, puis sur l’interface `NodeJS/React` des sites Expedia.
 
 J’ai travaillé en collaboration avec les équipes de développement d’Expedia, comme l’aurait fait un développeur indépendant, dans un contexte technique nouveau et complexe qu’il a fallu comprendre avant d’y apporter des contributions techniques.
 
@@ -39,18 +48,18 @@ Adaptation des produits propriétaires de Sefas aux besoins client. Création de
 ### Bouygues Telecom
 *Paris - 2011-2013*
 
-Développeur sur l’application middle-office (Gallium) de gestion des millions de clients et contrats mobiles Bouygues Telecom.
+Développeur sur l’application middle-office (Gallium) de gestion des millions de clients et contrats mobiles [Bouygues Telecom](https://www.bouyguestelecom.fr/).
 
 Référent technique sur un lot de version, participation en tant qu’analyste aux tests d’assurance produit, participation à la maîtrise d’œuvre, support et correction d’anomalies sur version de production. Technologies `Java` et `Flex`.
 
 ## <i class="fa-solid fa-code"></i> Compétences
 
 - Java / Kotlin
-- Agile / DevOps
+- React / NodeJS
 - API REST / GraphQL
 - Base de Données / SQL
-- React / NodeJS
-- Cloud AWS
+- Agile / DevOps
+- Cloud AWS / Azure
 - Management
 - Gestion de projet
 - Python / Scripting

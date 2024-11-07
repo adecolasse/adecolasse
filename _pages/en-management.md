@@ -7,12 +7,11 @@ modified: 2024-03-01T00:00:00+02:00
 ---
 
 ## <i class="fa-solid fa-user"></i> About me
-Following a Master's degree in computer science, I now have 15 years of experience as a software engineer.I worked in companies of various sizes and domains, in France and in the United States. 
+A Master’s degree graduate in computer science, I now have 15 years of experience as a software engineer. I worked in companies of various sizes and domains, in France and in the United States.
 
-After being a full-stack developer for about 10 years, working mostly on back-end side, I progressively grew into leadership roles, first on technical side, then as people manager. I eventually reached a Senior Engineering Manager level at Expedia Group.
+After about 10 years as full-stack developer, working mostly on back-end side, I progressively grew into leadership roles, first on technical side, then as people manager. I eventually reached a Senior Engineering Manager level at Expedia Group.
 
 I oversaw teams up to ten people, mostly developers but also project and product managers, organized in agile teams relying on devOps workflows and tools.
-
 
 ## <i class="fa-solid fa-building-columns"></i> Experience
 
@@ -20,9 +19,9 @@ I oversaw teams up to ten people, mostly developers but also project and product
 #### *Senior Engineering Manager*
 *Paris - 2021-2023*
 
-During my last couple years at [Traveldoo](https://www.linkedin.com/company/traveldoo-technologies/) (Expedia Group), I was promoted to Senior Engineering Manager in charge of the administration and implementation applications. I supervised around ten direct reports of various skills, in a business termination context that made motivation a challenging topic.
+Promotion to Sr. Engineering Manager in charge of the administration applications for [Traveldoo](https://www.linkedin.com/company/traveldoo-technologies/) (Expedia Group). I supervised around ten direct reports of various skills in a business termination context that made motivation a challenging topic.
 
-I organized the work streams so we could keep on providing great product quality and support to our customers, while offering career opportunities to my team members.
+I organized the work streams with a goal of continuation in product quality and support to our customers, while offering career opportunities to my team members. I also made significant technical contributions and coaching since I remain very tech-oriented.
 
 #### *Engineering Manager*
 *Paris - 2018-2021*
@@ -62,9 +61,9 @@ Conception and development leader on new versions, quality and assurance tests, 
 - Product Management
 - Coaching
 - Java / Kotlin
-- REST / GraphQL API
-- Cloud AWS
 - React / NodeJS
+- REST / GraphQL API
+- Cloud AWS / Azure
 
 ## <i class="fa-solid fa-graduation-cap"></i>  Education
 

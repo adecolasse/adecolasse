@@ -19,9 +19,9 @@ J’ai encadré jusqu’à une dizaine de personne, développeurs mais aussi che
 #### *Senior Engineering Manager*
 *Paris - 2021-2023*
 
-Durant mes dernières années à [Traveldoo](https://www.linkedin.com/company/traveldoo-technologies/) (Expedia Group), j’ai été promu au poste de Senior Engineering Manager de l’équipe en charge du produit d’administration et d’implémentation. J’ai supervisé une dizaine de collaborateurs aux profils variés dans un contexte de fermeture de l’entreprise nécessitant de garder un haut niveau de motivation.
+Promotion au poste de Sr. Engineering Manager de l’équipe en charge du produit d’administration pour [Traveldoo](https://www.linkedin.com/company/traveldoo-technologies/) (Expedia Group). J’ai supervisé une dizaine de collaborateurs aux profils variés dans un contexte de fermeture de l’entreprise nécessitant de garder un haut niveau de motivation.
 
-J’ai mis en place le cadre de travail afin de fournir un produit de qualité aux clients jusqu'au bout, tout en proposant des opportunités de progression de carrière à mes équipes.
+J’ai mis en place le cadre de travail afin de continuer à fournir un produit de qualité aux clients, tout en proposant des opportunités de progression de carrière à mes équipes. J’ai également réalisé quelques contributions techniques et coaché les membres plus juniors de l’équipe.
 
 #### *Engineering Manager*
 *Paris - 2018-2021*
@@ -59,9 +59,9 @@ Référent technique sur un lot de version, participation en tant qu’analyste 
 - Gestion de produit
 - Coaching
 - Java / Kotlin
-- API REST / GraphQL
-- Cloud AWS
 - React / NodeJS
+- API REST / GraphQL
+- Cloud AWS / Azure
 
 ## <i class="fa-solid fa-graduation-cap"></i> Formation
 

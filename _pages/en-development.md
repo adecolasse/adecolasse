@@ -3,17 +3,26 @@ title:  "Full-Stack Developer"
 permalink: /en/development/
 locale: "en_US"
 toc: true
-modified: 2024-03-01T00:00:00+02:00
+modified: 2024-11-01T00:00:00+02:00
 ---
 
 ## <i class="fa-solid fa-user"></i> About me
-Following a Master's degree in computer science, I now have 15 years of experience as software engineer. I worked in companies of various sizes and domains, in France and in the United States.
+A Master’s degree graduate in computer science, I now have 15 years of experience as software engineer. I worked in companies of various sizes and domains, in France and in the United States.
 
-I mostly developed in Java environments on the back-end side, but I also have some experiences on the front-end using JS frameworks. On top of my full-stack skills, I have used extensively Agile and DevOps concepts during my different assignments.
+I mostly developed in Java environments on the back-end side, but I also have some experiences on the front-end using JS frameworks. On top of my full-stack skills, I made extensive usage of Agile and DevOps concepts during my different assignments.
 
 Recently, I've been promoted to leaderships roles (tech lead, manager) inside development teams, where I organized the way of working and made important architectural and technical decisions.
 
 ## <i class="fa-solid fa-building-columns"></i> Experience
+
+### BeeMyFlex
+*Paris - 2024*
+
+[BeeMyFlex](https://www.beemyflex.com/en/) is a startup providing web and mobile applications for office management (flex office, desk reservation, etc). I joined the team as contractor for three months and developed new features for the calendar application.
+
+Front-end technologies: `Next.js`, `React` and `Typescript`.  
+Back-end technologies: `C#`, `REST API` and `SQL Server`.  
+Deployment/Runtime: `Docker`, `Azure DevOps` and `Azure Cloud`.
 
 ### TAAP, Expedia Group
 *Paris - 2023*
@@ -40,7 +49,7 @@ Product customization for the customers’ needs. Creation of workflows to handl
 *Paris - 2011-2013*
 
 Bouygues Telecom | Paris
-Full-stack developer on the middle-office application (Gallium) managing millions of mobile phone's clients and contracts at [Bouygues Telecom](https://en.wikipedia.org/wiki/Bouygues_Telecom).
+Full-stack developer on the middle-office application (Gallium) managing millions of mobile phone's clients and contracts at [Bouygues Telecom](https://www.bouyguestelecom.fr/).
 
 Conception and development leader on new versions, quality and assurance tests, support and bug fixes in the production version.
 `Java` and `Flex` technologies.
@@ -48,11 +57,11 @@ Conception and development leader on new versions, quality and assurance tests, 
 ## <i class="fa-solid fa-code"></i> Skills
 
 - Java / Kotlin
-- Agile / DevOps
+- React / NodeJS
 - REST / GraphQL API
 - Database / SQL
-- React / NodeJS
-- Cloud AWS
+- Agile / DevOps
+- Cloud AWS / Azure
 - People Management
 - Project Management
 - Python / Scripting

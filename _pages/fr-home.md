@@ -21,7 +21,7 @@ skills:
   - image_path: /assets/images/patrick-perkins-ETRPjvb0KM0-unsplash.jpg
     alt: "manager agile senior"
     title: "Manager Agile Senior"
-    summary: "J'ai occupé jusqu'en 2023 le poste de Senior Engineering Manager, utilisant les méthodes Agile pour organiser des équipes de développement poylvalentes."
+    summary: "J'ai occupé le poste de Sr. Engineering Manager au sein d'Expedia Group, utilisant les méthodes Agile pour organiser des équipes de développement poylvalentes."
     url: "/fr/management/"
     btn_class: "btn--primary"    
     btn_label: "Plus d'Infos"
